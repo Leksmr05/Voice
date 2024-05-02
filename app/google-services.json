@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "381094360470",
+    "firebase_url": "https://voice-a3ff9-default-rtdb.firebaseio.com",
+    "project_id": "voice-a3ff9",
+    "storage_bucket": "voice-a3ff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381094360470:android:221b7cccab9c459d9699b7",
+        "android_client_info": {
+          "package_name": "com.boom.voice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsohI4zc699oSMZFTrfpozkwbP07enGMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

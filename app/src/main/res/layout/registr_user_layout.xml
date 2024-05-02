@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgroundimage"
+            android:scaleType="centerCrop"
+            android:id="@+id/back_1"
+            android:layout_marginLeft="-3dp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="@string/regist_user"
+            android:textColor="@color/white_text"
+            android:textSize="20dp"
+            android:fontFamily="@font/marmelad_regular"
+    />
+
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_border_blue"
+            android:layout_below="@+id/back_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/emailEditText"
+            android:hint="@string/email"
+            android:fontFamily="@font/marmelad_regular"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+    />
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_border_blue"
+            android:layout_below="@+id/emailEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/nameEditText"
+            android:hint="@string/name"
+            android:fontFamily="@font/marmelad_regular"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+    />
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_border_blue"
+            android:layout_below="@+id/nameEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/passwordEditText"
+            android:hint="@string/password"
+            android:fontFamily="@font/marmelad_regular"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+    />
+
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/nextImageView"
+            android:layout_below="@id/passwordEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/arrow"
+    />
+
+
+    <TextView
+        android:id="@+id/registrTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextImageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="@font/marmelad_regular"
+        android:text="@string/exzist_account"
+        android:textColor="@color/blue"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>

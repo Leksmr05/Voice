@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">voice</string>
+    <string name="title_home">Голосование</string>
+    <string name="title_dashboard">Мои голоса</string>
+    <string name="title_notifications">Профиль</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войдите в систему или зарегестируйтесь</string>
+    <string name="action_sign_in_short">Войдите в систему</string>
+    <string name="welcome">"Добро пожаловать !"</string>
+    <string name="invalid_username">Не действительное имя пользователя</string>
+    <string name="invalid_password">Пароль должен содержать минимум 5 символов</string>
+    <string name="login_failed">"Ошибка входа в систему"</string>
+    <string name="registr">Регистрация</string>
+    <string name="author">Авторизация</string>
+    <string name="email">Email</string>
+    <string name="fogot_pass">Забыли пароль?</string>
+    <string name="password">Пароль</string>
+    <string name="exzist_account">Уже есть учетная запись</string>
+    <string name="regist_user">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="exit">Выход</string>
+    <string name="cansel">Отмена</string>
+    <string name="user">User</string>
+    <string name="partner">Partner</string>
+    <string name="sign_up_as">Sing up as</string>
+</resources>

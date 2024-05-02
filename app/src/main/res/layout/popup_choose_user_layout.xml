@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/body_rel"
+                    android:background="@drawable/round_white_popup"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+    >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/sign_up_as"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/title"
+                android:fontFamily="@font/marmelad_regular"
+        />
+        <TextView android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="@color/gray"
+                   android:layout_below="@id/title"
+                    android:alpha="0.5"
+                   />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/title"
+                android:textColor="@color/blue"
+                android:text="@string/user"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:fontFamily="@font/marmelad_regular"
+                android:id="@+id/user"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@color/gray"
+                  android:layout_below="@id/user"
+                  android:alpha="0.5"
+
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/user"
+                android:textColor="@color/blue"
+                android:text="@string/partner"
+                android:id="@+id/partner"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:fontFamily="@font/marmelad_regular"
+
+        />
+
+
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/body_rel"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/round_white_popup"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="@string/cansel"
+                  android:gravity="center"
+                  android:textSize="25dp"
+                  android:fontFamily="@font/marmelad_regular"
+                  android:textColor="@color/blue"
+                  android:id="@+id/cansel"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>

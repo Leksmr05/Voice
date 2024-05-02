@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back_1"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_marginLeft="-3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundimage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/back_1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="109dp"
+        android:fontFamily="@font/marmelad_regular"
+        android:text="@string/author"
+        android:textColor="@color/white_text"
+        android:textSize="20dp" />
+
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_border_blue"
+            android:layout_below="@+id/back_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/emailEditText"
+            android:hint="@string/email"
+            android:fontFamily="@font/marmelad_regular"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+    />
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_border_blue"
+            android:layout_below="@+id/emailEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/passwordEditText"
+            android:hint="@string/password"
+            android:fontFamily="@font/marmelad_regular"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+    />
+
+    <ImageView
+        android:id="@+id/nextImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/arrow" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/registr"
+            android:textColor="@color/blue"
+            android:textSize="25dp"
+            android:fontFamily="@font/marmelad_regular"
+            android:layout_below="@id/nextImageView"
+            android:id="@+id/registrTextView"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/fogot_pass"
+            android:textColor="@color/blue"
+            android:textSize="25dp"
+            android:fontFamily="@font/marmelad_regular"
+            android:layout_below="@id/registrTextView"
+            android:id="@+id/fogotPassTextView"
+
+    />
+
+
+
+</RelativeLayout>
